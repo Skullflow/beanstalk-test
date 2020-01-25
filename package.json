@@ -1,0 +1,28 @@
+{
+  "name": "beanstalk-test",
+  "version": "1.0.0",
+  "description": "simple app to be deployed with AWS beanstalk",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skullflow/beanstalk-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skullflow/beanstalk-test/issues"
+  },
+  "homepage": "https://github.com/Skullflow/beanstalk-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2"
+  }
+}
